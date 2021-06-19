@@ -43,7 +43,7 @@ backimage=loadImage("forestback.jpg")
 function setup() {
   createCanvas(windowWidth,windowHeight);
   
- back=createSprite(width/2,height/2,500,200);
+ back=createSprite(width/2,height/2,1000000,100000);
 back.addImage(backimage)
 back.scale = 1.2;
   
