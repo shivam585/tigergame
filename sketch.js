@@ -66,7 +66,7 @@ back.scale = 10;
   gameOver.scale =1.8;
   restart.scale = 0.5;
   
-  invisibleGround = createSprite(width/2,height-10,700,50);
+  invisibleGround = createSprite(width/2,height-10,width,50);
   invisibleGround.visible = false;
   
   //create Obstacle and Cloud Groups
