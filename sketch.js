@@ -45,14 +45,14 @@ function setup() {
   
  back=createSprite(width/2,height/2,1000000,100000);
 back.addImage(backimage)
-back.scale = 1.2;
+back.scale = (width,height);
   
   trex = createSprite(50,180,20,50);
   trex.addAnimation("running", trex_running);
   trex.addAnimation("collided" ,trex_collided);
   trex.scale = 0.5;
   
-  ground = createSprite(width/2,height-30,700,50);
+  ground = createSprite(width/2,height-30,width,50);
   ground.visible=false;
   ground.addImage("ground",groundImage);
   ground.x = ground.width /2;
