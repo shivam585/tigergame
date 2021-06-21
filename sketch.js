@@ -162,7 +162,8 @@ function draw() {
   drawSprites();
 
 if(gameState === PLAY){
-    
+textSize(30)
+   fill("red")    
    text("Score: "+ score,width/2,height/10);}
   
 if(mousePressedOver(restart)&&gameState===END){
